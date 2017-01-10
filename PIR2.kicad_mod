@@ -1,4 +1,4 @@
-(module PIR2 (layer F.Cu) (tedit 587557C0)
+(module w_to:PIR2 (layer F.Cu) (tedit 58755921)
   (descr "Pin socket 3pin")
   (tags "CONN DEV")
   (fp_text reference PIR (at 0 -2.159) (layer F.SilkS)
@@ -21,9 +21,9 @@
   (fp_line (start 3.81 1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.3048))
   (fp_line (start -3.81 1.27) (end -3.81 -1.27) (layer F.SilkS) (width 0.3048))
   (pad "" np_thru_hole circle (at -13.5 -0.5) (size 4.8 4.8) (drill 4) (layers *.Cu *.Mask))
-  (pad 1 thru_hole oval (at -2.54 0) (size 1.524 2.19964) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
+  (pad 3 thru_hole oval (at -2.54 0) (size 1.524 2.19964) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole oval (at 0 0) (size 1.524 2.19964) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
-  (pad 3 thru_hole oval (at 2.54 0) (size 1.524 2.19964) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole oval (at 2.54 0) (size 1.524 2.19964) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
   (pad "" np_thru_hole circle (at 13.5 -0.5) (size 4.8 4.8) (drill 4) (layers *.Cu *.Mask))
   (pad "" np_thru_hole rect (at 0 18.8) (size 32 5.5) (drill oval 25.5 5) (layers *.Cu *.Mask))
   (model walter/pin_strip/pin_socket_3.wrl
